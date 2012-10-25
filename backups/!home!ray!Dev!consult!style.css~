@@ -1,0 +1,47 @@
+.consult a {
+    display: inline-block;
+    width: 232px;
+    height: 48px;
+    border: 2px solid #C4D7B9;
+    border-radius: 6px;
+    background: #f5feeb; /* Old browsers */
+    background: -moz-linear-gradient(top, #f5feeb 0%, #dbe8ce 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5feeb), color-stop(100%,#dbe8ce)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f5feeb 0%,#dbe8ce 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f5feeb 0%,#dbe8ce 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f5feeb 0%,#dbe8ce 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f5feeb 0%,#dbe8ce 100%); /* W3C */
+    padding: 0;
+    margin: 0;
+}
+.consult .consult-text {
+    font-size: 26px;
+    color: #5A935C;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 60px;
+    width: 168px;
+    height: 48px;
+    line-height: 48px;
+    background: url(http://tc-im-nrd307.tc.baidu.com:8287/green.png) no-repeat scroll 9px 50% transparent;
+}
+.consult span {
+    font-size: 22px;
+    color: #9A9A9A;
+    padding-left: 20px;
+    vertical-align: bottom;
+}
+.consult-2 a {
+    border-color: #C6D3F5;
+    background: #f5f8ff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f5f8ff 0%, #e6eeff 80%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f8ff), color-stop(80%,#e6eeff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f5f8ff 0%,#e6eeff 80%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f5f8ff 0%,#e6eeff 80%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f5f8ff 0%,#e6eeff 80%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f5f8ff 0%,#e6eeff 80%); /* W3C */
+}
+.consult-2 .consult-text {
+    color: #5353c3;
+    background-image: url(http://tc-im-nrd307.tc.baidu.com:8287/blue.png);
+}

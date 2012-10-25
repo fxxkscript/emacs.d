@@ -1,0 +1,15 @@
+{
+  "author": "Ray <ray@tomo.im> (tomo.im)",
+  "name": "hello-world",
+  "description": "hello world test app",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

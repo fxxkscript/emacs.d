@@ -1,0 +1,121 @@
+
+  var codeTable = {
+    code:"",
+    start:0,
+    number:10,
+    table:{}
+  };
+  codeTable.parse = function() {
+    var code = codeTable.code,
+        length = code.length,
+        from = code.slice(length/2),
+        to = code.slice(0,length/2),
+        i;
+    if(length%2 === 0 && length >= 0) {
+      for(i = 0; i < length/2; i++) {
+        codeTable.table[from[i]] = to[i];
+      }
+    }
+  };
+
+  var Face = function(url) {
+    this.url = url;
+    this.filterUrl = null;
+    this.decodeUrl = null;
+  };
+  Face.prototype.filter = function() {
+    var originUrl = this.url,
+        arr,
+        length,
+        filterUrl;    
+    arr = originUrl.match(/\?url=\S+\.+(\S+)\.+\S+(\&|$)/i);
+    if(arr) {
+      filterUrl = arr[1];
+      this.filterUrl = filterUrl.split('.')[0];
+    }
+    return this;
+  };
+  Face.prototype.exchange = function() {
+    var filterUrl = this.filterUrl,
+        length = filterUrl.length,
+        i,
+        current,
+        arr = [],
+        res;
+    for(i = 0; i < length; i++) {
+      current = codeTable.table[filterUrl[i]];
+      arr.push(current);
+    }
+    res = arr.join('');
+    this.decodeUrl = this.url.replace(filterUrl, res);
+    return this;
+  };
+
+  //utilities
+  if (document.getElementsByClassName) {
+    function getElementsByClassName(name, node, tag) {
+      node = node || document;
+      tag = tag || '*';
+      var eles = node.getElementsByClassName(name),
+      res = [];
+      if( tag !== '*' ) {
+        for (var i = 0, length = eles.length; 
+             i < length; i++) {
+          if( eles[i].nodeName.toLowerCase === tag.toLowerCase ) {
+            res.push(eles[i]);
+          }
+        }
+        return res;
+      } else {
+        return eles;
+      }
+    }
+  }
+  else {
+    function getElementsByClassName(name, node, tag) {
+      node = node || document;
+      tag = tag || '*';
+      var classes = name.split(' '),
+      classesToCheck = [],
+      elements = (tag === '*' && node.all) ? node.all : node.getElementsByTagName(tag),
+      current,
+      res = [],
+      match;
+      for (var i = 0, length = classes.length; i < length; i++) {
+        classesToCheck.push(new RegExp("(^|\\s)" + classes[i] + "(\\s|$)"));
+      }
+      for (i = 0, len = elements.length; i < len; i++) {
+        current = elements[i];
+        match = false;
+        var currentClass = current.className;
+        for (var j = 0; j < length; j++) {
+          match = classesToCheck[j].test(currentClass);
+          if(!match) {
+            break;
+          }
+        }
+        if(match) {
+          res.push(current);
+        }
+      }
+      return res;
+    }
+  }
+
+  function init(name) {
+    var list = getElementsByClassName(name),
+        url,
+        decodeUrl,
+        obj,
+        res = [], 
+        decodeUrl, 
+        i = 0, 
+        length;
+    for(i = 0, length = list.length; i < length; i++) {
+      url = list[i].href;
+      obj = new Face(url);
+      decodeUrl = obj.filter().exchange().decodeUrl;
+      list[i].href = decodeUrl;
+    }
+  }
+

@@ -1,0 +1,7 @@
+var fs = require('fs');
+
+var data = fs.readFileSync(__dirname + '/example.file', 'utf-8'); //read the file
+
+console.log(data);
+
+

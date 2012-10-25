@@ -1,0 +1,108 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ray/Dev/jquery/" . "src/")
+ ("/home/ray/Dev/node-example/" . "views/")
+ ("/home/ray/Dev/" . "sicp/")
+ ("/home/" . "ray/")
+ ("/" . "home/")
+ ("/home/ray/.emacs.d/" . "elpa/")
+ ("/home/ray/" . "Dev/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ray/Dev/sicp/"
+ "/home/ray/Dev/bianlian/"
+ "/home/ray/Dev/tangram/"
+ "/home/ray/Dev/jquery/dist/"
+ "/home/ray/.emacs.d/"
+ "/home/ray/Dev/test/"
+ "/home/ray/Dev/node-example/"
+ "/home/ray/Dev/node-example/views/"
+ "/home/ray/Dev/node-example/routes/"
+ "/home/ray/Dev/hello-world/"
+ "/home/ray/"
+ "/home/ray/Dev/leaderboard/"
+ "/home/ray/Dev/node/"
+ "/home/ray/Dev/demo/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "ex2.47.scm"
+ "ex2.46.scm"
+ "ex.2.44.scm"
+ "ex2.45.scm"
+ "ex2.45"
+ "test.js"
+ "bianlian.js"
+ "bianlian.html"
+ "tangram.js"
+ "jquery.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ray/Dev/sicp/" (20615 33735) "ex2.1.scm" "ex2.40.scm" "ex2.18.scm" "ex1.29.scm" "ex2.27.scm" "ex1.17.scm" "fibonacci.scm" "temp.scm" "ex1.24.scm" "ex1.16.scm" "ex2.5.scm" "ex2.23.scm" "ex1.34.scm" ".git/" "ex2.4.scm" "ex2.30.scm" "./" "ex2.7.scm" "ex2.47.scm" "ex1.21.scm" "count.scm" "test.scm" "ex2.2.scm" "ex2.44.scm" "../" "ex1.10.scm" "ex2.21.scm" "ex1.22.scm" "ex2.45.scm" "ex2.20.scm" "ex1.23.scm" "ex1.11.scm" "ex2.25.scm" "ex.2.44.scm" "ex2.29.scm" "ex2.19.scm" "ex1.12.scm" "ex2.28.scm" "ex2.46.scm" "ex2.17.scm" "ex2.22.scm")
+
+ ("/home/ray/" (20615 17549) ".VirtualBox/" ".pulse/" ".cache/" ".npm/" ".bash_logout" ".dmrc" ".thunderbird/" ".IntelliJIdea11/" ".pki/" ".zcompdump" ".pulse-cookie" ".vimviews/" "Desktop/" ".bash_login" ".ssh/" ".xinput.d/" "Templates/" ".gtkrc-2.0-kde4" ".spf13-vim-3/" ".xsession-errors" "Downloads/" ".ido.last" ".purple/" ".zsh_history" "./" ".mozilla/" ".gnome2/" ".lesshst" ".gimp-2.6/" ".gem/" "Public/" ".config/" "#.ido.last#" ".gnome2_private/" ".gstreamer-0.10/" ".gegl-0.0/" ".irb-history" ".vim/" ".adobe/" "../" "VirtualBox VMs/" ".viminfo" ".rvm/" ".fontconfig/" ".Xauthority" ".gvfs/" ".thumbnails/" ".zshrc" "Dev/" ".oh-my-zsh/" ".gconf/" ".emacs.d/" "Videos/" "Pictures/" ".bashrc" ".macromedia/" ".zlogin" ".rpmdb/" ".bash_history" ".dbus/" ".recentf" ".vimbackup/" ".zsh-update" "Documents/" ".recently-used" ".java/" ".zshrc.pre-oh-my-zsh" "2012-09-18-wheezy-raspbian.img" ".#.vimrc" ".local/" ".tmux.conf" ".fonts.conf" ".kde/" "Music/" ".neocon/" ".vimundo/" ".profile" ".vimswap/")
+
+ ("/home/ray/Dev/bianlian/" (20614 30798) "./" "../" "test.js" "bianlian.js" "bianlian.html")
+
+ ("/home/ray/Dev/tangram/" (20614 2435) "tangram.iml" "./" "tangram.js" "../" ".#tangram.js" ".idea/" "#tangram.js#")
+
+ ("/home/ray/Dev/jquery/dist/" (20614 4397) "jquery.js" "./" "../" "jquery.min.js" ".sizecache.json")
+
+ ("/home/ray/Dev/jquery/" (20614 4393) "README.md" "MIT-LICENSE.txt" "speed/" ".git/" "grunt.js" "package.json" "./" ".gitattributes" ".gitignore" "src/" "../" ".jshintrc" "dist/" "node_modules/" "build/" ".editorconfig" "CONTRIBUTING.md" "test/" "AUTHORS.txt" ".gitmodules")
+
+ ("/dev/" (20614 3160) "vga_arbiter" "rfkill" "mem" "null" "port" "zero" "full" "random" "urandom" "kmsg" "oldmem" "tty" "console" "tty0" "vcs" "vcsa" "vcs1" "vcsa1" "tty1" "tty2" "tty3" "tty4" "tty5" "tty6" "tty7" "tty8" "tty9" "tty10" "tty11" "tty12" "tty13" "tty14" "tty15" "tty16" "tty17" "tty18" "tty19" "tty20" "tty21" "tty22" "tty23" "tty24" "tty25" "tty26" "tty27" "tty28" "tty29" "tty30" "tty31" "tty32" "tty33" "tty34" "tty35" "tty36" "tty37" "tty38" "tty39" "tty40" "tty41" "tty42" "tty43" "tty44" "tty45" "tty46" "tty47" "tty48" "tty49" "tty50" "tty51" "tty52" "tty53" "tty54" "tty55" "tty56" "tty57" "tty58" "tty59" "tty60" "tty61" "tty62" "tty63" "mcelog" "snapshot" "ecryptfs" "fuse" "ptmx" "ttyS0" "ttyS1" "ttyS2" "ttyS3" "ttyS5" "ttyS6" "ttyS7" "ttyS8" "ttyS9" "ttyS10" "ttyS11" "ttyS12" "ttyS13" "ttyS14" "ttyS15" "ttyS16" "ttyS17" "ttyS18" "ttyS19" "ttyS20" "ttyS21" "ttyS22" "ttyS23" "ttyS24" "ttyS25" "ttyS26" "ttyS27" "ttyS28" "ttyS29" "ttyS30" "ttyS31" "ttyS4" "ttyprintk" "hpet" "agpgart" "ram0" "ram1" "ram2" "ram3" "ram4" "ram5" "ram6" "ram7" "ram8" "ram9" "ram10" "ram11" "ram12" "ram13" "ram14" "ram15" "loop-control" "loop0" "loop1" "loop2" "loop3" "loop4" "loop5" "loop6" "loop7" "net/" "ppp" "usbmon0" "usbmon1" "bus/" "usbmon2" "input/" "psaux" "uinput" "rtc0" "mapper/" "cpu_dma_latency" "network_latency" "network_throughput" "sg0" "bsg/" "sda" "sda1" "sda2" "sda5" "sda6" "sda7" "sda8" "pts/" ".initramfs/" "core" "fd/" "stdin" "stdout" "stderr" "btrfs-control" "block/" "char/" "rtc" "disk/" "dri/" "fb0" "vcs2" "vcsa2" "vcs3" "vcsa3" "vcs4" "vcsa4" "vcs5" "vcsa5" "vcs6" "vcsa6" ".udev/" "shm/" "cpu/" "autofs" "snd/" "mei" "watchdog" "nvram" "tpm0" "vboxusb/" "video0" "v4l/" "log" "vboxdrv" "vboxnetctl" "vcs63" "vcsa63" "hidraw0" "hidraw1" "hidraw2" "../" "./")
+
+ ("/home/ray/Dev/jquery/src/" (20614 1460) "outro.js" "sizzle-jquery.js" "core.js" "css.js" "exports.js" "#deferred.js#" "offset.js" "ajax.js" "data.js" "callbacks.js" "sizzle/" "./" "support.js" "event.js" "attributes.js" "ajax/" ".#deferred.js" "effects.js" "intro.js" "../" "deferred.js" ".jshintrc" "queue.js" "serialize.js" "dimensions.js" "deprecated.js" "manipulation.js" "traversing.js")
+
+ ("/home/ray/Dev/Sugar/release/" (20614 587) "0.9/" "0.9.4/" "1.2.4/" "edge/" "1.1.1/" "0.9.1/" "1.0/" "./" "1.2.3/" "0.9.3/" "1.3.4/" "1.2/" "1.3.1/" "0.9.5/" "copyright.txt" "../" "1.3.5/" "1.2.2/" "1.2.5/" "1.3/" "1.1.2/" "1.1.3/" "0.9.2/" "1.3.2/" "sugar-edge.js" "1.3.3/" "1.1/" "1.2.1/")
+
+ ("/home/ray/Dev/Sugar/release/1.3.5/" (20614 587) "sugar-1.3.5-full.development.js" "sugar-1.3.5-full.min.js" "sugar-1.3.5.min.js" "./" "../" "precompiled/")
+
+ ("/home/ray/Dev/Sugar/release/1.3.5/precompiled/development/" (20614 587) "es5.js" "core.js" "number.js" "date_locales.js" "function.js" "./" "array.js" "string.js" "regexp.js" "../" "inflections.js" "language.js" "date.js" "object.js" "date_ranges.js")
+
+ ("/home/ray/Dev/Sugar/" (20614 587) "README.md" "CAUTION.md" ".git/" "CHANGELOG.md" "release/" "package.json" "script/" "./" "LICENSE" ".gitignore" "../" "lib/" "component.json" "docs/" ".travis.yml" ".npmignore" "unit_tests/")
+
+ ("/home/ray/Dev/" (20614 433) "bianlian/" "tangram/" "bootstrap/" "webapp/" "./" "WordPress/" "bootstrap.zip" "depot/" "sicp/" "Sugar/" "node-example/" "../" "demo/" "consult/" "node/" "jquery/" "test/" "leaderboard/")
+
+ ("/home/ray/.emacs.d/" (20609 6623) "./" "emacs-color-theme-solarized/" "auto-save-list/" "elpa/" "../" "init.el~" "init.el" "zencoding/" ".smex-items" "backups/" "places")
+
+ ("/home/ray/Dev/test/" (20603 54066) "app.js" "./" "../" "test.js" "node_modules/")
+
+ ("/home/ray/Dev/node-example/views/" (20603 48099) "home.jade" "layout.jade" "./" "../")
+
+ ("/home/ray/Dev/node-example/" (20603 47903) "routes/" "package.json" "app.js" "./" "../" "public/" "node_modules/" "views/")
+
+ ("/home/ray/Dev/node-example/routes/" (20603 47857) "user.js" "./" "../" "store.js")
+
+ ("/home/ray/Dev/hello-world/" (20603 43357) "package.json" "./" "../" "node_modules/")
+
+ ("/home/ray/Dev/leaderboard/" (20599 49433) "leaderboard.html" "./" "../" "leaderboard.css" "leaderboard.js" ".meteor/")
+
+ ("/home/ray/Dev/node/" (20599 47388) "./" "index.js" "../" "server.js" "route.js" "node_modules/" "assert.js" "requestHandlers.js")
+
+ ("/usr/share/emacs/24.1/lisp/" (20578 61013) "format-spec.elc" "apropos.el" "face-remap.elc" "newcomment.elc" "comint.el" "obsolete/" "skeleton.el" "generic-x.elc" "window.elc" "tabify.el" "ibuf-macs.el" "mouse-drag.el" "dos-w32.el" "tabify.elc" "windmove.el" "json.el" "imenu.elc" "image.el" "cus-start.el" "novice.elc" "forms.el" "hi-lock.el" "cus-dep.el" "language/" "elide-head.elc" "find-dired.el" "shell.el" "cus-theme.el" "vc/" "ps-bdf.elc" "userlock.elc" "mb-depth.elc" "savehist.el" "gnus/" "jka-cmpr-hook.el" "hl-line.el" "dframe.el" "dos-w32.elc" "shadowfile.el" "term/" "align.el" "pcmpl-linux.el" "epa-dired.elc" "dabbrev.el" "informat.elc" "find-cmd.el" "epa-file.elc" "xt-mouse.el" "time.el" "xml.elc" "pcmpl-rpm.elc" "wid-browse.elc" "hippie-exp.el" "eshell/" "expand.elc" "cedet/" "facemenu.elc" "ibuf-macs.elc" "scroll-all.elc" "forms.elc" "frame.elc" "image-dired.el" "mb-depth.el" "mouse-sel.elc" "view.elc" "loadhist.elc" "custom.elc" "type-break.elc" "autorevert.el" "winner.elc" "man.el" "savehist.elc" "tar-mode.el" "dirtrack.elc" "play/" "cus-theme.elc" "recentf.el" "electric.elc" "mpc.el" "files.el" "custom.el" "md4.elc" "linum.elc" "format-spec.el" "hilit-chg.el" "autoinsert.elc" "select.el" "pcomplete.elc" "pcmpl-unix.el" "delim-col.el" "paren.elc" "flow-ctrl.el" "linum.el" "bs.el" "mouse-copy.el" "thumbs.el" "allout-widgets.el" "allout.el" "hippie-exp.elc" "isearchb.el" "hfy-cmap.el" "cus-face.elc" "generic-x.el" "emacs-lisp/" "mwheel.elc" "repeat.elc" "man.elc" "ibuffer.elc" "ses.el" "shell.elc" "iimage.elc" "loadup.el" "help.elc" "filecache.elc" "x-dnd.elc" "foldout.el" "longlines.el" "bindings.elc" "allout.elc" "delsel.elc" "tool-bar.el" "icomplete.elc" "ido.el" "talk.elc" "menu-bar.el" "dynamic-setting.el" "TAGS" "master.elc" "ps-samp.el" "autoinsert.el" "progmodes/" "proced.elc" "patcomp.el" "vcursor.elc" "doc-view.el" "paths.el" "mouse-drag.elc" "macros.el" "image-file.el" "ezimage.elc" "finder.elc" "hilit-chg.elc" "pcmpl-gnu.el" "align.elc" "pcomplete.el" "epg.elc" "pcmpl-rpm.el" "tempo.elc" "dirtrack.el" "mail/" "w32-vars.elc" "vt-control.el" "repeat.el" "calc/" "mouse-sel.el" "json.elc" "newcomment.el" "ielm.elc" "rect.elc" "vt100-led.el" "epa.el" "scroll-all.el" "shadowfile.elc" "longlines.elc" "tooltip.el" "wid-browse.el" "color.el" "info-xref.el" "find-file.elc" "edmacro.elc" "makesum.elc" "ibuffer.el" "echistory.elc" "tutorial.elc" "ls-lisp.el" "thumbs.elc" "uniquify.elc" "bindings.el" "arc-mode.el" "saveplace.elc" "htmlfontify.elc" "buff-menu.elc" "subr.elc" "winner.el" "password-cache.el" "font-lock.el" "msb.elc" "env.elc" "info.el" "makesum.el" "replace.elc" "battery.elc" "ses.elc" "cus-dep.elc" "notifications.el" "font-lock.elc" "help-macro.elc" "help-fns.elc" "outline.el" "timezone.el" "desktop.el" "simple.el" "case-table.elc" "msb.el" "mwheel.el" "t-mouse.el" "wid-edit.el" "tar-mode.elc" "files.elc" "array.el" "ls-lisp.elc" "version.el" "org/" "ruler-mode.el" "htmlfontify.el" "disp-table.elc" "widget.elc" "server.elc" "scroll-lock.elc" "image-mode.elc" "cmuscheme.el" "doc-view.elc" "battery.el" "epa-mail.elc" "desktop.elc" "wdired.elc" "ps-print.elc" "master.el" "indent.elc" "terminal.elc" "image-file.elc" "delim-col.elc" "dired-x.elc" "emulation/" "misearch.el" "bookmark.elc" "skeleton.elc" "rect.el" "speedbar.elc" "composite.elc" "comint.elc" "epa-file.el" "frame.el" "speedbar.el" "cus-edit.elc" "bookmark.el" "pcmpl-linux.elc" "ehelp.elc" "isearchb.elc" "help-mode.elc" "wid-edit.elc" "mh-e/" "recentf.elc" "misc.el" "hfy-cmap.elc" "lpr.elc" "replace.el" "faces.el" "follow.elc" "buff-menu.el" "ido.elc" "filesets.elc" "jka-compr.el" "help-mode.el" "w32-vars.el" "hexl.el" "button.elc" "calculator.el" "info-look.elc" "chistory.elc" "kmacro.elc" "files-x.el" "COPYING" "dired-aux.el" "mpc.elc" "windmove.elc" "kermit.elc" "vcursor.el" "follow.el" "strokes.elc" "ielm.el" "find-lisp.elc" "calendar/" "url/" "icomplete.el" "tmm.el" "fringe.el" "image-dired.elc" "flow-ctrl.elc" "foldout.elc" "ps-mule.el" "cdl.el" "mouse.elc" "finder.el" "scroll-bar.elc" "site-init.elc" "whitespace.el" "ffap.elc" "time.elc" "ledit.el" "isearch.elc" "faces.elc" "rot13.elc" "ansi-color.elc" "lpr.el" "hex-util.el" "array.elc" "expand.el" "ehelp.el" "find-dired.elc" "ps-samp.elc" "scroll-lock.el" "whitespace.elc" "server.el" "iswitchb.elc" "loaddefs.el" "view.el" "finder-inf.el" "avoid.el" "epg-config.elc" "select.elc" "jka-compr.elc" "pcmpl-unix.elc" "minibuffer.el" "delsel.el" "rot13.el" "calculator.elc" "sort.el" "thingatpt.elc" "ezimage.el" "startup.el" "kermit.el" "electric.el" "reveal.elc" "dos-vars.el" "ffap.el" "info.elc" "gs.elc" "ebuff-menu.elc" "ps-print.el" "epa-hook.elc" "woman.el" "widget.el" "vt100-led.elc" "dnd.el" "locate.el" "tmm.elc" "image-mode.el" "term.el" "x-dnd.el" "locate.elc" "ps-def.el" "time-stamp.elc" "apropos.elc" "subdirs.el" "image.elc" "find-file.el" "mouse-copy.elc" "jit-lock.el" "proced.el" "epa.elc" "completion.el" "informat.el" "term.elc" "completion.elc" "dos-fns.el" "time-stamp.el" "abbrev.elc" "terminal.el" "jka-cmpr-hook.elc" "button.el" "startup.elc" "minibuf-eldef.el" "notifications.elc" "window.el" "scroll-bar.el" "international/" "sb-image.el" "tempo.el" "xml.el" "autorevert.elc" "font-core.elc" "printing.el" "cus-face.el" "novice.el" "README" "autoarg.elc" "composite.el" "tooltip.elc" "cus-edit.el" "help.el" "kmacro.el" "face-remap.el" "epa-hook.el" "midnight.elc" "ps-bdf.el" "vt-control.elc" "allout-widgets.elc" "double.el" "help-at-pt.elc" "help-fns.el" "minibuf-eldef.elc" "epg.el" "rfn-eshadow.el" "outline.elc" "dabbrev.elc" "filesets.el" "mouse.el" "rfn-eshadow.elc" "misc.elc" "format.elc" "uniquify.el" "echistory.el" "ldefs-boot.el" "hi-lock.elc" "descr-text.el" "menu-bar.elc" "ps-def.elc" "sort.elc" "cdl.elc" "epg-config.el" "nxml/" "password-cache.elc" "paren.el" "tree-widget.el" "misearch.elc" "timezone.elc" "filecache.el" "autoarg.el" "saveplace.el" "subr.el" "minibuffer.elc" "ibuf-ext.el" "cmuscheme.elc" "info-xref.elc" "dired.el" "gs.el" "abbrev.el" "simple.elc" "help-at-pt.el" "loadhist.el" "files-x.elc" "indent.el" "tool-bar.elc" "strokes.el" "dired-aux.elc" "dired-x.el" "reposition.el" "w32-fns.el" "ebuff-menu.el" "forms-d2.el" "dos-fns.elc" "fringe.elc" "t-mouse.elc" "dnd.elc" "macros.elc" "xt-mouse.elc" "erc/" "thingatpt.el" "cus-start.elc" "double.elc" "cus-load.el" "soundex.el" "format.el" "env.el" "elide-head.el" "emacs-lock.elc" "net/" "help-macro.el" "hexl.elc" "imenu.el" "hex-util.elc" "talk.el" "descr-text.elc" "pcmpl-gnu.elc" "chistory.el" "ibuf-ext.elc" "reposition.elc" "pcmpl-cvs.el" "register.elc" "dired.elc" "userlock.el" "woman.elc" "textmodes/" "color.elc" "find-lisp.el" "site-init.el" "ps-mule.elc" "jit-lock.elc" "facemenu.el" "dframe.elc" "emacs-lock.el" "info-look.el" "tree-widget.elc" "reveal.el" "dynamic-setting.elc" "wdired.el" "epa-dired.el" "w32-fns.elc" "edmacro.el" "epa-mail.el" "disp-table.el" "type-break.el" "md4.el" "bs.elc" "font-core.el" "case-table.el" "soundex.elc" "arc-mode.elc" "register.el" "sb-image.elc" "isearch.el" "iswitchb.el" "avoid.elc" "midnight.el" "find-cmd.elc" "pcmpl-cvs.elc" "dos-vars.elc" "ruler-mode.elc" "tutorial.el" "ledit.elc" "ansi-color.el" "hl-line.elc" "printing.elc" "forms-pass.el" "iimage.el" "../" "./")
+
+ ("/home/ray/Dev/demo/" (20578 45713) "./" "telephone.html" "#telephone.html#" "../" "mouse.html")
+
+ ("/home/" (20563 36433) "./" "../" ".directory" "ray/")
+
+ ("/usr/" (20530 49899) "./" "local/" "src/" "../" "lib/" "games/" "sbin/" "include/" "bin/" "share/")
+
+ ("/usr/share/" (20577 24769) "libreoffice/" "system-config-printer/" "pkg-config-crosswrapper" "hunspell/" "dbus-1/" "purple/" "kde4/" "polkit-1/" "locale-langpack/" "build-essential/" "farstream/" "mysql/" "info/" "alsa-base/" "ImageMagick-6.6.9/" "sysv-rc/" "sgml-data/" "doc-base/" "xml-core/" "application-registry/" "language-support/" "cdrdao/" "aclocal-1.11/" "hyphen/" "qalculate/" "mythes/" "groff/" "lintian/" "grub/" "akonadi/" "dpkg/" "update-notifier/" "templates/" "ca-certificates/" "desktop-directories/" "aptdaemon/" "apt-xapian-index/" "readline/" "webkitgtk-1.0/" "initramfs-tools/" "virtualbox/" "perl/" "libsensors4/" "enchant/" "locale/" "myspell/" "command-not-found/" "update-manager/" "libvirtodbc0/" "fonts/" "launchpad-integration/" "gtk-doc/" "cups/" "GeoIP/" "hplip/" "unattended-upgrades/" "soprano/" "gdb/" "services/" "mozilla/" "git-core/" "gnupg/" "aclocal/" "poppler/" "foo2zjs/" "pkgconfig/" "ubufox/" "ssl-cert/" "pycentral-data/" "qt4/" "et/" "./" "po-debconf/" "gitweb/" "X11/" "zenity/" "apturl/" "color/" "avahi/" "sounds/" "rsyslog/" "popularity-contest/" "dict/" "ontology/" "libthai/" "indicators/" "python-apt/" "console-setup/" "grub-gfxpayload-lists/" "doc/" "usb_modeswitch/" "fcitx/" "ghostscript/" "wallpapers/" "gir-1.0/" "debianutils/" "snmp/" "sgml-base/" "software-properties/" "computerjanitor/" "locales/" "terminfo/" "javascript/" "mime/" "apache2/" "language-selector/" "gnome-control-center/" "netpbm/" "applications/" "base-files/" "opencc/" "icons/" "language-tools/" "jockey/" "app-install/" "samba/" "file/" "../" "emacs24/" "im-switch/" "calendar/" "pulseaudio/" "xml/" "djvu/" "aspell/" "m17n/" "mibs/" "glib-2.0/" "misc/" "xul-ext/" "kubuntu-default-settings/" "autoconf/" "libexttextcat/" "gutenprint/" "pixmaps/" "keyrings/" "vim/" "GConf/" "libaudio2/" "initscripts/" "mime-info/" "foo2qpdl/" "apps/" "gnome/" "zsh/" "man/" "gnupg2/" "usb-creator/" "binfmts/" "gettext/" "kubuntu-firefox-installer/" "pnm2ppa/" "themes/" "i18n/" "ufw/" "sgml/" "kubuntu-netbook-default-settings/" "strigi/" "package-data-downloads/" "libvisual-plugins-0.4/" "nano/" "libgphoto2/" "libindicator/" "pam/" "pyshared/" "perl5/" "intltool-debian/" "automake-1.11/" "python/" "hal/" "linux-sound-base/" "tabset/" "gst-plugins-base/" "brltty/" "autostart/" "recovery-mode/" "iptables/" "xsessions/" "nvidia-common/" "adduser/" "mobile-broadband-provider-info/" "os-prober/" "java/" "pam-configs/" "webkitgtk-3.0/" "foomatic/" "apt/" "menu/" "tcltk/" "pyshared-data/" "zoneinfo/" "bug/" "man-db/" "gconf/" "base-passwd/" "debhelper/" "ppp/" "debconf/" "acpi-support/" "libtool/" "alsa/" "mimelnk/" "common-licenses/" "cmake/" "emacs/" "emoticons/" "xserver-xorg/" "ppd/" "consoletrans/" "gstreamer-0.10/" "insserv/" "consolefonts/" "dictionaries-common/" "gimp/" "apport/")
+
+ ("/usr/share/emacs/" (20562 60059) "./" "../" "site-lisp/" "24.1/")
+
+ ("/usr/share/emacs/24.1/" (20562 60061) "etc/" "./" "lisp/" "../" "leim/" "site-lisp/")
+
+ ("/home/ray/.emacs.d/elpa/" (20568 15257) "starter-kit-2.0.3/" "find-file-in-project-3.2/" "magit-1.1.1/" "paredit-22/" "./" "ido-ubiquitous-1.5/" "smex-2.0/" "../" "idle-highlight-mode-1.1.2/" "archives/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

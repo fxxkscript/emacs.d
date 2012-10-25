@@ -1,0 +1,24 @@
+
+;; ----- smex-history -----
+(
+ eval-current-buffer
+ revert-buffer
+ visit-tags-table
+ compile
+ css-mode
+ sgml-mode
+ html-mode
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 3)
+ (eval-current-buffer . 6)
+ (revert-buffer . 2)
+ (html-mode . 1)
+ (css-mode . 2)
+ (sgml-tag . 1)
+ (sgml-mode . 1)
+ (compile . 3)
+ (visit-tags-table . 4)
+)

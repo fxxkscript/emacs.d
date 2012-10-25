@@ -1,0 +1,10 @@
+var addHandlers = function    (nodes) {
+  var i;
+  for(i = 0; i < nodes.length; i++) {
+    nodes[i].onclick = function(i) {
+      return function(e) {
+        console.log(i);
+      }
+    }();
+  }
+};

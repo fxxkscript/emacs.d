@@ -1,0 +1,5 @@
+var fs = require('fs');
+
+fs.readFile(__dirname + '/hello.rb', 'utf-8', function(err, data) {
+
+});

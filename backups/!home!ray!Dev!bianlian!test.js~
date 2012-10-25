@@ -1,0 +1,38 @@
+
+//test
+function make()
+{
+  var temp, random;
+  var text = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
+  var res = text.split('');
+  for( var i=0; i < res.length; i++ ) {
+    random = Math.floor(Math.random() * res.length);
+    temp = res[i];
+    res[i] = res[random];
+    res[random] = temp;
+  }
+  return res.join('');
+}
+Object.prototype.length = function() {
+  var i, obj = this, size=0;
+  for(i in obj) {
+    if(obj.hasOwnProperty(i)) {
+      size++;
+    }
+  }
+  return size;
+}
+console.time('hello');
+for(var aaa = 1; aaa < 1000; aaa++) {
+  new Face(aaa.toString());
+}
+console.timeEnd('hello');
+codeTable.code = make()+make();
+codeTable.parse();
+
+
+var str = new Face('http://www.baidu.com/baidu.php?url=0f0000jxKR6PbpzcmIS6HweOK7e9jZ_6ibUSYlLzkoxgCjAnEEftfkFb9qk44WCIrUczIMUwp46G233XsTLml5Zhl17JrM9T_vkdG5dJSafN7zIY2oc_zu1TqMX-.Db_jVCq7vI-td2hGv-5QWdQjPakvu5ZxbR0.U1Yz0ZDq8OoA_fKY5UElkoD0pyYqnW0k0ZTq0ATqmhRzn0KdpHdBmy-bIfKspyfqnfKWpyfqn16d0AdY5H00pvbqn0KzIjYdnHD0ug9s5fK-pyfqnHfYr0KVpyfqn0KBpHYs0AdW5H00TZwC5NqxgsKkTA-b5H00TyPGujYs0ZFMIA7M5H00ULu_5fKWThnqPWf3njR');
+
+var res = str.filter().exchange();
+console.log(res);
+

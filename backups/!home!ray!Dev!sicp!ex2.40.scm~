@@ -1,0 +1,17 @@
+(define nil '())
+(define (enumerate-interval begin end)
+  (if (> begin end)
+      nil
+      (append (list begin) (enumerate-interval
+                            (+ begin 1)
+                            end))))
+ 
+(define (unique-pairs n)
+  (accumulate append
+              nil
+              (map (lambda (i)
+                     (map (lambda (j) (list i j))
+                          (enumerate-interval
+                           1
+                           (- i 1))))
+                   (enumerate-interval 1 n))))
